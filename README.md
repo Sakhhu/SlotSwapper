@@ -23,3 +23,17 @@ This is a compact starter template intended to be extended. For production:
 - Add validation, better error messages
 - Use HTTPS and secure JWT handling (httpOnly cookies)
 - Add tests and CI
+
+## API Endpoints
+
+| Method | Endpoint | Description |
+|--------|-----------|-------------|
+| POST | /api/signup | Register a new user |
+| POST | /api/login | Login and get JWT token |
+| GET | /api/events | Get all events of the logged-in user |
+| POST | /api/events | Create a new event |
+| PATCH | /api/events/:id | Update an existing event |
+| DELETE | /api/events/:id | Delete an event |
+| GET | /api/swappable-slots | View all swappable slots from other users |
+| POST | /api/swap-request | Create a swap request |
+| POST | /api/swap-response/:requestId | Accept or reject a swap request |
