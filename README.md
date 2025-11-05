@@ -37,3 +37,9 @@ This is a compact starter template intended to be extended. For production:
 | GET | /api/swappable-slots | View all swappable slots from other users |
 | POST | /api/swap-request | Create a swap request |
 | POST | /api/swap-response/:requestId | Accept or reject a swap request |
+
+## Live Demo
+
+Check out the live deployed app here:  
+🔗 [https://slotswapper1-edc3.onrender.com](https://slotswapper1-edc3.onrender.com)
+
